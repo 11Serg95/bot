@@ -7,6 +7,7 @@
 #property link      ""
 #property version   "0.01"
 #property strict
+#include "paint.mqh"
 //+------------------------------------------------------------------+
 //| Expert initialization function                                   |
 //+------------------------------------------------------------------+
