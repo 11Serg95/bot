@@ -7,7 +7,7 @@
 #property link      ""
 #property version   "0.01"
 #property strict
-#include "paint.mqh"
+//#include "paint.mqh"
 //+------------------------------------------------------------------+
 //| Expert initialization function                                   |
 //+------------------------------------------------------------------+
@@ -32,6 +32,15 @@ void OnDeinit(const int reason)
 void OnTick()
   {
 //---
-   
+string m;
+   m=Com();
+   Comment("a",m);
   }
 //+------------------------------------------------------------------+
+
+
+string Com(string a="1195")
+{
+Comment(a);
+return a;
+}
